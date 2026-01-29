@@ -1,0 +1,7 @@
+name: HomeEX
+version: '${project.version}'
+depend: [Essentials]
+main: fr.infinitystudios.homeEX.HomeEX
+api-version: '1.21'
+authors: [ infinityStudios ]
+description: An EssentialsX unnoficial addon that add a GUI to the homes system.

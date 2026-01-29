@@ -41,7 +41,7 @@ public class ItemsUtils {
         ItemMeta meta = newItem.getItemMeta();
 
         if(!meta.getEnchants().isEmpty()){
-            newItem.removeEnchantments();
+            meta.removeEnchantments();
             meta.setEnchantmentGlintOverride(true);
         }
 
